@@ -15,15 +15,29 @@ struct ExerciseDay: Identifiable {
     
 }
 
-struct HistoryStore {
+class HistoryStore: ObservableObject {
 
-    var exerciseDays: [ExerciseDay] = []
+    @Published var exerciseDays: [ExerciseDay] = []
 
     init() {
         #if DEBUG
         createDevData()
         #endif
     }
+
+    func addDoneExercise(_ exerciseName: String) {
+        let today = Date()
+        if today.isSameDay(as: exerciseDays[0].date) {
+            print("Adding \(exerciseName)")
+            exerciseDays[0].exercises.append(exerciseName)
+        } else {
+            exerciseDays.insert(
+                ExerciseDay(date: today, 
+                            exercises: [exerciseName]),
+                            at: 0)
+        }
+    }
+
 }
 
 
