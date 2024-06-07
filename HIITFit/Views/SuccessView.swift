@@ -8,6 +8,10 @@
 import SwiftUI
 
 struct SuccessView: View {
+
+    @Binding var selectedTab: Int
+    @Environment(\.dismiss) var dismiss
+
     var body: some View {
         ZStack {
             VStack {
@@ -25,10 +29,12 @@ struct SuccessView: View {
                 .multilineTextAlignment(.center)
                 .foregroundStyle(Color.gray)
             }
+            
             VStack {
                 Spacer()
-                Button(action: {}) {
-                    Text("Continue")
+                Button("Countinue") {
+                    dismiss()
+                    selectedTab = 9
                 }
                 .padding()
             }
@@ -37,5 +43,5 @@ struct SuccessView: View {
 }
 
 #Preview {
-    SuccessView()
+    SuccessView(selectedTab: .constant(3))
 }
