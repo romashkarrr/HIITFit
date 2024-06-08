@@ -18,9 +18,12 @@
 		8426EF5C2C10B825005A39AE /* HistoryStoreDevData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8426EF5B2C10B825005A39AE /* HistoryStoreDevData.swift */; };
 		8426EF5E2C10F62A005A39AE /* SuccessView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8426EF5D2C10F62A005A39AE /* SuccessView.swift */; };
 		8426EF602C1330E3005A39AE /* TimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8426EF5F2C1330E3005A39AE /* TimerView.swift */; };
+		8426EF622C148A46005A39AE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8426EF612C148A46005A39AE /* Assets.xcassets */; };
+		8426EF652C148D99005A39AE /* RaisedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8426EF642C148D99005A39AE /* RaisedButton.swift */; };
+		8426EF672C1496FF005A39AE /* EmbossedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8426EF662C1496FF005A39AE /* EmbossedButton.swift */; };
+		8426EF692C14A995005A39AE /* ContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8426EF682C14A995005A39AE /* ContainerView.swift */; };
 		84A418032C0F41560004C6F1 /* HIITFitApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A418022C0F41560004C6F1 /* HIITFitApp.swift */; };
 		84A418052C0F41560004C6F1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A418042C0F41560004C6F1 /* ContentView.swift */; };
-		84A418072C0F41580004C6F1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84A418062C0F41580004C6F1 /* Assets.xcassets */; };
 		84A4180A2C0F41580004C6F1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84A418092C0F41580004C6F1 /* Preview Assets.xcassets */; };
 		84A418112C0F52390004C6F1 /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A418102C0F52390004C6F1 /* WelcomeView.swift */; };
 		84A418132C0F524B0004C6F1 /* ExerciseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A418122C0F524B0004C6F1 /* ExerciseView.swift */; };
@@ -28,6 +31,8 @@
 		84A4181A2C0F54230004C6F1 /* burpee.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 84A418162C0F54230004C6F1 /* burpee.mp4 */; };
 		84A4181B2C0F54230004C6F1 /* squat.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 84A418172C0F54230004C6F1 /* squat.mp4 */; };
 		84A4181C2C0F54230004C6F1 /* step-up.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 84A418182C0F54230004C6F1 /* step-up.mp4 */; };
+		84C1D3D92C14AEED004B0753 /* WelcomeImages.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C1D3D82C14AEED004B0753 /* WelcomeImages.swift */; };
+		84C1D3DB2C14B280004B0753 /* GradientBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C1D3DA2C14B280004B0753 /* GradientBackground.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,10 +47,13 @@
 		8426EF5B2C10B825005A39AE /* HistoryStoreDevData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryStoreDevData.swift; sourceTree = "<group>"; };
 		8426EF5D2C10F62A005A39AE /* SuccessView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuccessView.swift; sourceTree = "<group>"; };
 		8426EF5F2C1330E3005A39AE /* TimerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerView.swift; sourceTree = "<group>"; };
+		8426EF612C148A46005A39AE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = "../../../HIITFit/suia-materials/09-refining-your-app/projects/starter/HIITFit/HIITFit/Assets.xcassets"; sourceTree = "<group>"; };
+		8426EF642C148D99005A39AE /* RaisedButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RaisedButton.swift; sourceTree = "<group>"; };
+		8426EF662C1496FF005A39AE /* EmbossedButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmbossedButton.swift; sourceTree = "<group>"; };
+		8426EF682C14A995005A39AE /* ContainerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContainerView.swift; sourceTree = "<group>"; };
 		84A417FF2C0F41560004C6F1 /* HIITFit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HIITFit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		84A418022C0F41560004C6F1 /* HIITFitApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HIITFitApp.swift; sourceTree = "<group>"; };
 		84A418042C0F41560004C6F1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		84A418062C0F41580004C6F1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		84A418092C0F41580004C6F1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		84A418102C0F52390004C6F1 /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
 		84A418122C0F524B0004C6F1 /* ExerciseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseView.swift; sourceTree = "<group>"; };
@@ -53,6 +61,8 @@
 		84A418162C0F54230004C6F1 /* burpee.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = burpee.mp4; sourceTree = "<group>"; };
 		84A418172C0F54230004C6F1 /* squat.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = squat.mp4; sourceTree = "<group>"; };
 		84A418182C0F54230004C6F1 /* step-up.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "step-up.mp4"; sourceTree = "<group>"; };
+		84C1D3D82C14AEED004B0753 /* WelcomeImages.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeImages.swift; sourceTree = "<group>"; };
+		84C1D3DA2C14B280004B0753 /* GradientBackground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientBackground.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,8 +120,8 @@
 				8426EF512C109E94005A39AE /* DateExtension.swift */,
 				8426EF562C10A343005A39AE /* ImageExtension.swift */,
 				84A418142C0F526F0004C6F1 /* Views */,
-				84A418062C0F41580004C6F1 /* Assets.xcassets */,
 				8426EF5A2C10B7D0005A39AE /* Videos */,
+				8426EF612C148A46005A39AE /* Assets.xcassets */,
 				84A418082C0F41580004C6F1 /* Preview Content */,
 			);
 			path = HIITFit;
@@ -133,6 +143,11 @@
 				84A418102C0F52390004C6F1 /* WelcomeView.swift */,
 				84A418122C0F524B0004C6F1 /* ExerciseView.swift */,
 				8426EF332C107349005A39AE /* VideoPlayerView.swift */,
+				8426EF662C1496FF005A39AE /* EmbossedButton.swift */,
+				8426EF682C14A995005A39AE /* ContainerView.swift */,
+				84C1D3D82C14AEED004B0753 /* WelcomeImages.swift */,
+				84C1D3DA2C14B280004B0753 /* GradientBackground.swift */,
+				8426EF642C148D99005A39AE /* RaisedButton.swift */,
 				8426EF5D2C10F62A005A39AE /* SuccessView.swift */,
 				8426EF312C1070D6005A39AE /* RatingView.swift */,
 				8426EF2D2C1056AE005A39AE /* HeaderView.swift */,
@@ -204,8 +219,8 @@
 				84A4181A2C0F54230004C6F1 /* burpee.mp4 in Resources */,
 				84A4181C2C0F54230004C6F1 /* step-up.mp4 in Resources */,
 				84A4180A2C0F41580004C6F1 /* Preview Assets.xcassets in Resources */,
+				8426EF622C148A46005A39AE /* Assets.xcassets in Resources */,
 				84A418192C0F54230004C6F1 /* sun-salute.mp4 in Resources */,
-				84A418072C0F41580004C6F1 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -217,11 +232,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				8426EF602C1330E3005A39AE /* TimerView.swift in Sources */,
+				8426EF652C148D99005A39AE /* RaisedButton.swift in Sources */,
+				8426EF692C14A995005A39AE /* ContainerView.swift in Sources */,
 				8426EF2E2C1056AE005A39AE /* HeaderView.swift in Sources */,
 				8426EF522C109E94005A39AE /* DateExtension.swift in Sources */,
+				84C1D3DB2C14B280004B0753 /* GradientBackground.swift in Sources */,
 				84A418132C0F524B0004C6F1 /* ExerciseView.swift in Sources */,
 				8426EF542C10A258005A39AE /* HistoryStore.swift in Sources */,
 				84A418052C0F41560004C6F1 /* ContentView.swift in Sources */,
+				84C1D3D92C14AEED004B0753 /* WelcomeImages.swift in Sources */,
 				8426EF5C2C10B825005A39AE /* HistoryStoreDevData.swift in Sources */,
 				8426EF5E2C10F62A005A39AE /* SuccessView.swift in Sources */,
 				8426EF592C10A435005A39AE /* Exercise.swift in Sources */,
@@ -229,6 +248,7 @@
 				84A418032C0F41560004C6F1 /* HIITFitApp.swift in Sources */,
 				8426EF572C10A343005A39AE /* ImageExtension.swift in Sources */,
 				8426EF322C1070D6005A39AE /* RatingView.swift in Sources */,
+				8426EF672C1496FF005A39AE /* EmbossedButton.swift in Sources */,
 				8426EF502C109C6E005A39AE /* HistoryView.swift in Sources */,
 				8426EF342C107349005A39AE /* VideoPlayerView.swift in Sources */,
 			);

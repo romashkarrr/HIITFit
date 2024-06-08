@@ -12,6 +12,7 @@ struct ExerciseView: View {
 
     @EnvironmentObject var history: HistoryStore
 
+    @State private var showHistory = false
     @State private var timerDone = false
     @State private var showTimer = false
 
@@ -29,9 +30,23 @@ struct ExerciseView: View {
     }
 
     var startButton: some View {
-        Button("Start Exercise") {
+        RaisedButton(buttonText: "Start Exercise") {
             showTimer.toggle()
         }
+    }
+
+    var historyButton: some View {
+        Button(
+            action: {
+                showHistory = true
+            },
+            label: {
+                Text("History")
+                    .fontWeight(.bold)
+                    .padding([.leading, .trailing], 5)
+            })
+        .padding(.bottom, 10)
+        .buttonStyle(EmbossedButtonStyle())
     }
 
     var doneButton: some View {
@@ -77,8 +92,7 @@ struct ExerciseView: View {
                 RatingView(exerciseIndex: index)
                     .padding()
 
-                Button("History") {}
-                    .padding(.bottom)
+                historyButton
             }
         }
     }

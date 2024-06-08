@@ -44,22 +44,25 @@ struct RatingView: View {
         let character = ratings[index]
         rating = character.wholeNumberValue ?? 0
     }
-    
+
     var body: some View {
         HStack {
             ForEach(1..<maximumRating + 1, id: \.self) { index in
-                Image(systemName: "waveform.path.ecg")
-                    .foregroundColor(
-                        index > rating ? offColor : onColor)
-                    .onTapGesture {
-                        updateRating(index: index)
-                    }
-                    .onAppear {
-                        convertRating()
-                    }
-                    .onChange(of: ratings) { newValue, rawValue in
-                        convertRating()
-                    }
+                Button(action: {
+                    updateRating(index: index)
+                }, label: {
+                    Image(systemName: "waveform.path.ecg")
+                        .foregroundColor(
+                            index > rating ? offColor : onColor)
+                        .font(.body)
+                })
+                .buttonStyle(EmbossedButtonStyle(buttonShape: .round))
+                .onAppear {
+                    convertRating()
+                }
+                .onChange(of: ratings) { newValue, rawValue in
+                    convertRating()
+                }
             }
         }
         .font(.largeTitle)
