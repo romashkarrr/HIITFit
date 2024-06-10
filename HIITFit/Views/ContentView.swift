@@ -29,4 +29,5 @@ struct ContentView: View {
 
 #Preview {
     ContentView()
+        .environmentObject(HistoryStore(preview: true))
 }

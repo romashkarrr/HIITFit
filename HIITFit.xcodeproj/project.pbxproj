@@ -22,6 +22,7 @@
 		8426EF652C148D99005A39AE /* RaisedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8426EF642C148D99005A39AE /* RaisedButton.swift */; };
 		8426EF672C1496FF005A39AE /* EmbossedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8426EF662C1496FF005A39AE /* EmbossedButton.swift */; };
 		8426EF692C14A995005A39AE /* ContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8426EF682C14A995005A39AE /* ContainerView.swift */; };
+		8472A5E52C1714F300D2CFA4 /* BarChartDayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8472A5E42C1714F300D2CFA4 /* BarChartDayView.swift */; };
 		84A418032C0F41560004C6F1 /* HIITFitApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A418022C0F41560004C6F1 /* HIITFitApp.swift */; };
 		84A418052C0F41560004C6F1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A418042C0F41560004C6F1 /* ContentView.swift */; };
 		84A4180A2C0F41580004C6F1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84A418092C0F41580004C6F1 /* Preview Assets.xcassets */; };
@@ -31,8 +32,10 @@
 		84A4181A2C0F54230004C6F1 /* burpee.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 84A418162C0F54230004C6F1 /* burpee.mp4 */; };
 		84A4181B2C0F54230004C6F1 /* squat.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 84A418172C0F54230004C6F1 /* squat.mp4 */; };
 		84A4181C2C0F54230004C6F1 /* step-up.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 84A418182C0F54230004C6F1 /* step-up.mp4 */; };
+		84BC84442C171BE900F32D31 /* BarChartWeekView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84BC84432C171BE900F32D31 /* BarChartWeekView.swift */; };
 		84C1D3D92C14AEED004B0753 /* WelcomeImages.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C1D3D82C14AEED004B0753 /* WelcomeImages.swift */; };
 		84C1D3DB2C14B280004B0753 /* GradientBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C1D3DA2C14B280004B0753 /* GradientBackground.swift */; };
+		84C1D3DD2C16FB8C004B0753 /* AddHistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C1D3DC2C16FB8C004B0753 /* AddHistoryView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -51,6 +54,7 @@
 		8426EF642C148D99005A39AE /* RaisedButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RaisedButton.swift; sourceTree = "<group>"; };
 		8426EF662C1496FF005A39AE /* EmbossedButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmbossedButton.swift; sourceTree = "<group>"; };
 		8426EF682C14A995005A39AE /* ContainerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContainerView.swift; sourceTree = "<group>"; };
+		8472A5E42C1714F300D2CFA4 /* BarChartDayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarChartDayView.swift; sourceTree = "<group>"; };
 		84A417FF2C0F41560004C6F1 /* HIITFit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HIITFit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		84A418022C0F41560004C6F1 /* HIITFitApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HIITFitApp.swift; sourceTree = "<group>"; };
 		84A418042C0F41560004C6F1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -61,8 +65,10 @@
 		84A418162C0F54230004C6F1 /* burpee.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = burpee.mp4; sourceTree = "<group>"; };
 		84A418172C0F54230004C6F1 /* squat.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = squat.mp4; sourceTree = "<group>"; };
 		84A418182C0F54230004C6F1 /* step-up.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "step-up.mp4"; sourceTree = "<group>"; };
+		84BC84432C171BE900F32D31 /* BarChartWeekView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarChartWeekView.swift; sourceTree = "<group>"; };
 		84C1D3D82C14AEED004B0753 /* WelcomeImages.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeImages.swift; sourceTree = "<group>"; };
 		84C1D3DA2C14B280004B0753 /* GradientBackground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientBackground.swift; sourceTree = "<group>"; };
+		84C1D3DC2C16FB8C004B0753 /* AddHistoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddHistoryView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -142,8 +148,11 @@
 				84A418042C0F41560004C6F1 /* ContentView.swift */,
 				84A418102C0F52390004C6F1 /* WelcomeView.swift */,
 				84A418122C0F524B0004C6F1 /* ExerciseView.swift */,
+				84BC84432C171BE900F32D31 /* BarChartWeekView.swift */,
 				8426EF332C107349005A39AE /* VideoPlayerView.swift */,
 				8426EF662C1496FF005A39AE /* EmbossedButton.swift */,
+				84C1D3DC2C16FB8C004B0753 /* AddHistoryView.swift */,
+				8472A5E42C1714F300D2CFA4 /* BarChartDayView.swift */,
 				8426EF682C14A995005A39AE /* ContainerView.swift */,
 				84C1D3D82C14AEED004B0753 /* WelcomeImages.swift */,
 				84C1D3DA2C14B280004B0753 /* GradientBackground.swift */,
@@ -231,6 +240,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84C1D3DD2C16FB8C004B0753 /* AddHistoryView.swift in Sources */,
 				8426EF602C1330E3005A39AE /* TimerView.swift in Sources */,
 				8426EF652C148D99005A39AE /* RaisedButton.swift in Sources */,
 				8426EF692C14A995005A39AE /* ContainerView.swift in Sources */,
@@ -246,9 +256,11 @@
 				8426EF592C10A435005A39AE /* Exercise.swift in Sources */,
 				84A418112C0F52390004C6F1 /* WelcomeView.swift in Sources */,
 				84A418032C0F41560004C6F1 /* HIITFitApp.swift in Sources */,
+				8472A5E52C1714F300D2CFA4 /* BarChartDayView.swift in Sources */,
 				8426EF572C10A343005A39AE /* ImageExtension.swift in Sources */,
 				8426EF322C1070D6005A39AE /* RatingView.swift in Sources */,
 				8426EF672C1496FF005A39AE /* EmbossedButton.swift in Sources */,
+				84BC84442C171BE900F32D31 /* BarChartWeekView.swift in Sources */,
 				8426EF502C109C6E005A39AE /* HistoryView.swift in Sources */,
 				8426EF342C107349005A39AE /* VideoPlayerView.swift in Sources */,
 			);

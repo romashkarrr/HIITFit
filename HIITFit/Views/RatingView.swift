@@ -15,7 +15,7 @@ struct RatingView: View {
 
     let maximumRating = 5
 
-    let onColor = Color.red
+    let onColor = Color("gradient-top")
     let offColor = Color.gray
 
     func updateRating(index: Int) {
